@@ -1,0 +1,75 @@
+/* Global background and font */
+body, .main, .block-container {
+    background-color: #0B0F2B; /* Deep dark blue */
+    color: #FFFFFF; /* White text */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title and headers */
+h1, h2, h3, h4 {
+    color: #FFFFFF;
+    font-weight: 600;
+}
+p{
+   
+    color: #FFFFFF;
+    font-weight: 300;
+}
+
+/* Buttons */
+div.stButton > button {
+    background-color: #5A189A; /* Rich purple */
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.5em 1.2em;
+    border: none;
+    transition: 0.3s ease;
+}
+
+div.stButton > button:hover {
+    background-color: #7B2CBF; /* Lighter purple */
+    transform: scale(1.05);
+}
+
+/* Text inputs and text areas */
+input, textarea {
+    background-color: #1C1F3A;
+    color: #FFFFFF;
+    border: 1px solid #5A189A;
+    border-radius: 6px;
+    padding: 0.5em;
+}
+
+label {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+/* Radio buttons */
+div.row-widget.stRadio > div {
+    background-color: #1C1F3A;
+    padding: 0.5em;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+/* Owl mascot animation */
+.owl:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* Spinner text */
+.stSpinner > div {
+    color: #FFFFFF;
+    font-style: italic;
+}
